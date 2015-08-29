@@ -30,8 +30,8 @@ sudo apt-get -y install mysql-server libapache2-mod-auth-mysql php5-mysql
 echo "Installing PHP Extensions"
 sudo apt-get install libapache2-mod-php5 php5-curl php5-gd php5-mcrypt php5-mysql -y > /dev/null
 
-echo "Creating MySQL database: vagrant_test"
-mysql --user="root" --password="pass" --execute="CREATE DATABASE vagrant_test;"
+# echo "Creating MySQL database: vagrant_test"
+# mysql --user="root" --password="pass" --execute="CREATE DATABASE vagrant_test;"
 
 # echo "Importing Seed data to database: vagrant_test"
 # mysql -u root -ppass vagrant_test < seed.sql
